@@ -2,4 +2,6 @@ pandas
 numpy
 opencv-python
 matplotlib
-scikit-image
+scikit-learn
+keras
+tensorflow
