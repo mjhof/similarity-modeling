@@ -3,6 +3,7 @@ numpy
 opencv-python
 matplotlib
 scikit-learn
+scikit-image
 tensorflow
 keras
 visualkeras
