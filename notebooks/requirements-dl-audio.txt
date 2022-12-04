@@ -1,6 +1,7 @@
-python==3.9
 pandas
 numpy
-matplotlib
+matplotlib==3.6.2
 opencv-python
-librosa
+librosa==0.9.2
+tqdm
+tensorflow==2.9.2

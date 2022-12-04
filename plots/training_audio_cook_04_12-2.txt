@@ -1,0 +1,35 @@
+Model: "sequential_16"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_49 (Conv2D)          (None, 63, 3, 32)         160
+
+ batch_normalization_10 (Bat  (None, 63, 3, 32)        128
+ chNormalization)
+
+ conv2d_50 (Conv2D)          (None, 62, 2, 64)         8256
+
+ batch_normalization_11 (Bat  (None, 62, 2, 64)        256
+ chNormalization)
+
+ conv2d_51 (Conv2D)          (None, 61, 1, 64)         16448
+
+ batch_normalization_12 (Bat  (None, 61, 1, 64)        256
+ chNormalization)
+
+ flatten_11 (Flatten)        (None, 3904)              0
+
+ dense_31 (Dense)            (None, 200)               781000
+
+ batch_normalization_13 (Bat  (None, 200)              800
+ chNormalization)
+
+ dropout_3 (Dropout)         (None, 200)               0
+
+ dense_32 (Dense)            (None, 1)                 201
+
+=================================================================
+Total params: 807,505
+Trainable params: 806,785
+Non-trainable params: 720
+_________________________________________________________________
