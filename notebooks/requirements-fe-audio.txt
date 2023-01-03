@@ -3,3 +3,5 @@ numpy
 opencv-python
 matplotlib
 librosa
+scikit-learn
+tqdm
