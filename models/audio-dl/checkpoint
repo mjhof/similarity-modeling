@@ -1,0 +1,2 @@
+model_checkpoint_path: "audio-dl"
+all_model_checkpoint_paths: "audio-dl"
