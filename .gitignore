@@ -229,5 +229,6 @@ https://www.toptal.com/developers/gitignore/api/python,macos,jupyternotebooks
 
 data/sim12-ground-truth-muppets/
 data/video/
+data/audio/
 
 models/video
